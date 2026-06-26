@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SHEcure</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <!-- Home -->
+    <string name="home">Home</string>
+    <string name="welcome">Welcome</string>
+
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+
+    <!-- Safe Route -->
+    <string name="safe_route">Safe Route Finder</string>
+    <string name="find_route">Find Safe Route</string>
+    <string name="go_to_home">Go to Home</string>
+    <string name="enter_destination">Enter destination</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">Welcome to SHEcure</string>
+    <string name="welcome_subtitle">Your safety companion for emergencies</string>
+    <string name="get_started">Get Started</string>
+
+</resources>

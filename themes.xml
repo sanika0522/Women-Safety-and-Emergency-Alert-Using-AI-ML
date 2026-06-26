@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.SHEcure" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">@color/white</item>
+
+    </style>
+
+</resources>

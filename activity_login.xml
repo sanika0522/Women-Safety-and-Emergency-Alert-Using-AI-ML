@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F4F2FF">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#2E2E5D"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Password -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Login Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#5E5CE6"
+        app:cornerRadius="12dp"/>
+
+    <!-- Register Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        app:cornerRadius="12dp"/>
+
+</LinearLayout>

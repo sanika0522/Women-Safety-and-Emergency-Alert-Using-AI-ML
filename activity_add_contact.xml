@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Contact 1 -->
+        <EditText
+            android:id="@+id/etName1"
+            android:hint="Name 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etNumber1"
+            android:hint="Number 1"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Contact 2 -->
+        <EditText
+            android:id="@+id/etName2"
+            android:hint="Name 2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etNumber2"
+            android:hint="Number 2"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Contact 3 -->
+        <EditText
+            android:id="@+id/etName3"
+            android:hint="Name 3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etNumber3"
+            android:hint="Number 3"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSave"
+            android:text="Save Contacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
